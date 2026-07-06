@@ -1,0 +1,15 @@
+# Example prooftrail session
+
+This session uses a fake project named `notes-cli` and safe generated output.
+
+```powershell
+cd C:\Users\you\projects\notes-cli
+
+python prooftrail.py run `
+  --out proof `
+  --project notes-cli `
+  --title "Demo proof for notes-cli" `
+  -- python -c "print('format check captured'); print('summary build captured')"
+```
+
+Open `proof\SUMMARY.md` to review the captured command result, artifact paths, redaction report, and evidence boundary.
