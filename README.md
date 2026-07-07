@@ -68,12 +68,16 @@ Secret checks are a best-effort safety net, not a security guarantee. Review pro
 
 See `examples/session.txt` for a small fake project session and `examples/proof/SUMMARY.md` for generated example output.
 
+## Support
+
+Use GitHub issues for bug reports, docs gaps, and support requests.
+
 ## Non-Goals
 
 - No correctness certification.
 - No security certification.
 - No hosted archive or cloud sync.
-- No browser automation.
+- No browser control.
 - No package-manager publishing in this source snapshot.
 
 ## License
